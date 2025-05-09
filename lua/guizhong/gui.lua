@@ -7,6 +7,7 @@
 function setBuiltinGUIGroups(palette)
 
   if palette.transparent then
+    print("Transparent.")
     vim.api.nvim_set_hl(
       0, 
       'Normal', 
