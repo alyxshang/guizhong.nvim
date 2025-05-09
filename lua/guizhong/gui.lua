@@ -5,10 +5,43 @@
 -- groups for normal
 -- GUI elments.
 function setBuiltinGUIGroups(palette)
-  vim.api.nvim_set_hl(
-    0, 
-    'Normal', 
-    { fg = palette.fg, bg = palette.bg})
+
+  if palette.transparent then
+    vim.api.nvim_set_hl(
+      0, 
+      'Normal', 
+      { fg = palette.fg, bg = 'NONE' })
+    vim.api.nvim_set_hl(
+      0, 
+      'NormalNC', 
+      { fg = palette.fg, bg = 'NONE' })
+    vim.api.nvim_set_hl(
+      0,
+      'EndOfBuffer',
+      { fg = 'NONE' })
+    vim.api.nvim_set_hl(
+      0, 
+      'VertSplit', 
+      { fg = palette.fg3, bg = 'NONE' })
+  else
+    vim.api.nvim_set_hl(
+      0, 
+      'Normal', 
+      { fg = palette.fg, bg = palette.bg })
+    vim.api.nvim_set_hl(
+      0, 
+      'NormalNC', 
+      { fg = palette.fg, bg = palette.bg })
+    vim.api.nvim_set_hl(
+      0,
+      'EndOfBuffer',
+      { fg = palette.bg }) 
+    vim.api.nvim_set_hl(
+      0, 
+      'VertSplit', 
+      { fg = palette.fg3, bg = palette.bg3 })
+  end
+
   vim.api.nvim_set_hl(
     0, 
     'ColorColumn',
@@ -56,15 +89,7 @@ function setBuiltinGUIGroups(palette)
   vim.api.nvim_set_hl(
     0, 
     'ErrorMsg', 
-    { fg = palette.warningColor, bg = palette.bg2, bold=true })
-  vim.api.nvim_set_hl(
-    0, 
-    'VertSplit', 
-    { fg = palette.fg3, bg = palette.bg3 })
-  vim.api.nvim_set_hl(
-    0,
-    'EndOfBuffer',
-    { fg = palette.bg })
+    { fg = palette.warningColor, bg = palette.bg2, bold=true }) 
   vim.api.nvim_set_hl(
     0, 
     'Folded',
@@ -128,11 +153,7 @@ function setBuiltinGUIGroups(palette)
   vim.api.nvim_set_hl(
     0, 
     "FloatTitle", 
-    { fg = palette.fg2, bold = true })
-  vim.api.nvim_set_hl(
-    0, 
-    'NormalNC', 
-    { fg = palette.fg, bg = palette.bg })
+    { fg = palette.fg2, bold = true }) 
   vim.api.nvim_set_hl(
     0, 
     'Pmenu', 
