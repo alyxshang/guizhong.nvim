@@ -9,7 +9,6 @@ function setBuiltinGUIGroups(palette)
   -- Setting key highlight groups to
   -- support transparency.
   if palette.transparent then
-    print("Transparent.")
     vim.api.nvim_set_hl(
       0, 
       'Normal', 
