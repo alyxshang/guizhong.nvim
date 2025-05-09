@@ -6,6 +6,8 @@
 -- GUI elments.
 function setBuiltinGUIGroups(palette)
 
+  -- Setting key highlight groups to
+  -- support transparency.
   if palette.transparent then
     print("Transparent.")
     vim.api.nvim_set_hl(
@@ -24,6 +26,26 @@ function setBuiltinGUIGroups(palette)
       0, 
       'VertSplit', 
       { fg = palette.fg3, bg = 'NONE' })
+    vim.api.nvim_set_hl(
+      0, 
+      'LineNr', 
+      { fg = palette.fg2, bg = 'NONE' })
+    vim.api.nvim_set_hl(
+      0, 
+      'LineNrAbove', 
+      { fg = palette.fg2, bg = 'NONE' })
+    vim.api.nvim_set_hl(
+      0, 
+      'LineNrBelow', 
+      { fg = palette.fg2, bg = 'NONE' })
+    vim.api.nvim_set_hl(
+      0, 
+      'SignColumn', 
+      { fg = palette.commentColor, bg = 'NONE' })
+    vim.api.nvim_set_hl(
+      0, 
+      'FoldColumn',
+      { fg = palette.commentColor, bg = 'NONE' })
   else
     vim.api.nvim_set_hl(
       0, 
@@ -41,8 +63,30 @@ function setBuiltinGUIGroups(palette)
       0, 
       'VertSplit', 
       { fg = palette.fg3, bg = palette.bg3 })
-  end
+    vim.api.nvim_set_hl(
+      0, 
+      'LineNr', 
+      { fg = palette.fg2, bg = palette.bg })
+    vim.api.nvim_set_hl(
+      0, 
+      'LineNrAbove', 
+      { fg = palette.fg2, bg = palette.bg })
+    vim.api.nvim_set_hl(
+      0, 
+      'LineNrBelow', 
+      { fg = palette.fg2, bg = palette.bg })  
+    vim.api.nvim_set_hl(
+      0, 
+      'SignColumn', 
+      { fg = palette.commentColor, bg = palette.bg2 })
+    vim.api.nvim_set_hl(
+      0, 
+      'FoldColumn',
+      { fg = palette.commentColor, bg = palette.bg2 })
+    end
 
+  -- Setting the other
+  -- highlight groups.
   vim.api.nvim_set_hl(
     0, 
     'ColorColumn',
@@ -94,27 +138,7 @@ function setBuiltinGUIGroups(palette)
   vim.api.nvim_set_hl(
     0, 
     'Folded',
-    { fg = palette.fg4, bg = palette.bg })
-  vim.api.nvim_set_hl(
-    0, 
-    'LineNr', 
-    { fg = palette.fg2, bg = palette.bg })
-  vim.api.nvim_set_hl(
-    0, 
-    'LineNrAbove', 
-    { fg = palette.fg2, bg = palette.bg })
-  vim.api.nvim_set_hl(
-    0, 
-    'LineNrBelow', 
-    { fg = palette.fg2, bg = palette.bg })
-  vim.api.nvim_set_hl(
-    0, 
-    'FoldColumn',
-    { fg = palette.commentColor, bg = palette.bg2 })
-  vim.api.nvim_set_hl(
-    0, 
-    'SignColumn', 
-    { fg = palette.commentColor, bg = palette.bg2})
+    { fg = palette.fg4, bg = palette.bg })  
   vim.api.nvim_set_hl(
     0, 
     'IncSearch',

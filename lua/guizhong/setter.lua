@@ -60,7 +60,11 @@ function setHighlights(palette)
   telescope.setTelescopeGroups(palette)
   syntax.setBuiltinSyntaxGroups(palette)
   treesitter.setTreeSitterGroups(palette)
-  bufferlines.setBufferLinesGroups(palette)
+  if palette.transparent then
+    bufferlines.setBufferLinesGroupsTransparent(palette)
+  else
+    bufferlines.setBufferLinesGroups(palette)
+  end
 end
 
 -- Exporting the function to

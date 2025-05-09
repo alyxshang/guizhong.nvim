@@ -63,6 +63,7 @@ local themePalette = {
   varColor = "#d4d4d4",
   warningColor = "#ff0000",
   warning2Color = "#ff8800",
+  transparent = true
 }
 
 -- Setting the colorscheme's
@@ -122,6 +123,10 @@ To contribute, please follow these steps:
 
 - Initial release.
 - Upload to GitHub.
+
+### Version 0.2.0
+
+- Support for a transparency setting.
 
 ## NOTE :scroll:
 
