@@ -127,6 +127,6 @@ end
 -- groups for "BufferLines"
 -- elements.
 return {
-  setBufferLinesGroups = setBufferLinesGroups
+  setBufferLinesGroups = setBufferLinesGroups,
   setBufferLinesGroupsTransparent = setBufferLinesGroupsTransparent
 }
