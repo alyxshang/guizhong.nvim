@@ -15,6 +15,10 @@ function setBuiltinGUIGroups(palette)
       { fg = palette.fg, bg = 'NONE' })
     vim.api.nvim_set_hl(
       0, 
+      'TabLineFill', 
+      { bg = 'NONE' })
+    vim.api.nvim_set_hl(
+      0, 
       'NormalNC', 
       { fg = palette.fg, bg = 'NONE' })
     vim.api.nvim_set_hl(
@@ -51,6 +55,9 @@ function setBuiltinGUIGroups(palette)
       'Normal', 
       { fg = palette.fg, bg = palette.bg })
     vim.api.nvim_set_hl(
+      0, 
+      'TabLineFill', 
+      { bg = palettebg })    vim.api.nvim_set_hl(
       0, 
       'NormalNC', 
       { fg = palette.fg, bg = palette.bg })
