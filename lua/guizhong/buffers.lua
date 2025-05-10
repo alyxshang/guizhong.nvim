@@ -138,7 +138,7 @@ function setBufferLinesGroupsTransparent(palette)
 end
 
 
--- Exporting the function
+-- Exporting the functions
 -- for setting the highlight
 -- groups for "BufferLines"
 -- elements.
