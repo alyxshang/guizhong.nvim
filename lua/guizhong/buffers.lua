@@ -13,6 +13,10 @@ function setBufferLinesGroups(palette)
     { bg = palette.bg })
   vim.api.nvim_set_hl(
     0, 
+    'BufferLineTab', 
+    { fg = 'NONE', bg = palette.bg })
+  vim.api.nvim_set_hl(
+    0, 
     'BufferLineBackground', 
     { bg = palette.bg })
   vim.api.nvim_set_hl(
@@ -75,6 +79,10 @@ function setBufferLinesGroupsTransparent(palette)
     0, 
     'BufferLineFill', 
     { bg = 'NONE' })
+  vim.api.nvim_set_hl(
+    0, 
+    'BufferLineTab', 
+    { fg = 'NONE', bg = 'NONE' })
   vim.api.nvim_set_hl(
     0, 
     'BufferLineBackground', 
