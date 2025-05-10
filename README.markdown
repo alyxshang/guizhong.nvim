@@ -127,7 +127,6 @@ To contribute, please follow these steps:
 ### Version 0.2.0
 
 - Support for a transparency setting.
-- [ ] Unit tests.
 
 ## NOTE :scroll:
 
