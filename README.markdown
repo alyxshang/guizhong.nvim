@@ -30,66 +30,7 @@ return {
 
 ## USAGE :hammer_and_pick:
 
-To make your own colorscheme, please follow these steps:
-
-- Create a directory named after your colorscheme.
-- Inside this folder, create a directory called `colors`.
-- Inside the `colors` directory, create a file named `your_theme.lua` where `your_theme` represents the name of your theme.
-- Inside this file, write the following code:
-
-```Lua
--- Importing this plugin.
-local engine = require("guizhong")
-
--- Defining the colorscheme's
--- color palette as a Lua
--- table.
-local themePalette = {
-  bg = "#000000",
-  fg = "#d4d4d4",
-  fg2 = "#c3c3c3",
-  fg3 = "#b2b2b2",
-  fg4 = "#a1a1a1",
-  bg2 = "#141414",
-  bg3 = "#292929",
-  bg4 = "#3d3d3d",
-  keywordColor = "#d4d4d4",
-  builtinColor = "#d4d4d4",
-  constColor = "#d4d4d4",
-  commentColor = "#808080",
-  funcColor = "#d4d4d4",
-  strColor = "#d4d4d4",
-  typeColor = "#d4d4d4",
-  varColor = "#d4d4d4",
-  warningColor = "#ff0000",
-  warning2Color = "#ff8800",
-  transparent = true
-}
-
--- Setting the colorscheme's
--- global name.
-vim.g.colors_name = "your_theme"
-
--- Listening for colorscheme
--- changes.
-vim.api.nvim_create_autocmd(
-  "ColorScheme",
-  {
-    pattern = "your_theme",
-    callback = function()
-      engine.setHighlights(themePalette)
-    end
-  }
-)
-```
-
-- The first line imports this plugin.
-- The table called `themePalette` contains the Lua table with the colors of your colorscheme. Each item in this table has to have the key name outlined here.
-- `vim.g.colors_name = "your_theme"` lets Neovim know the name of the colorscheme. A global option is set. `your_theme` represents the name of your theme.
-- In the next few lines, a Neovim autocommand is set to listen for the changing of the global colorscheme. If the colorscheme name is set with the command `vim.cmd.colorscheme("your_theme")`, the function inside the `callback` parameter will be triggered.
-- Inside the `callback` closure the `setHighlights` function is called and applies the colors outlined in the `themePalette` table to different UI elements.
-- Save and quit this file.
-- You just created your first Neovim colorscheme!
+To understand how to use ***Guizhong.nvim***, please peruse any of the colorschemes made with ***Guizhong.nvim***.
 
 ## CONTRIBUTING :black_nib:
 
