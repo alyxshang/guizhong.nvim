@@ -46,6 +46,8 @@ To contribute, please follow these steps:
 
 ## SUPPORTED PLUGINS :package:
 
+Any of these plugins can be specified as optional dependencies for ***Guizhong.nvim***.
+
 - [noice.nvim](https://github.com/folke/noice.nvim)
 - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 - [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
@@ -57,6 +59,7 @@ To contribute, please follow these steps:
 - [eternity.nvim](https://github.com/alyxshang/eternity.nvim): A Neovim colorscheme inspired by the Raiden Shogun, the Archon of Inazuma.
 - [sakuramaiden.nvim](https://github.com/alyxshang/sakuramaiden.nvim): A Neovim colorscheme inspired by Yae Miko, the Guuji of the Grand Narukami Shrine.
 - [jadewisdom.nvim](https://github.com/alyxshang/jadewisdom.nvim): A Neovim colorscheme inspired by Ningguang, the Tianquan of the Liyue Qixing.
+- [emeraldsparrow.nvim](https://github.com/alyxshang/emeraldsparrow.nvim): A Neovim colorscheme inspired by Ms. Lan Yan, a prolific maker of Rattan figures.
 
 ## CHANGELOG :black_nib:
 
@@ -68,6 +71,7 @@ To contribute, please follow these steps:
 ### Version 0.2.0
 
 - Support for a transparency setting.
+- Support for conditionally setting highlight groups based on plugins installed.
 
 ## NOTE :scroll:
 
