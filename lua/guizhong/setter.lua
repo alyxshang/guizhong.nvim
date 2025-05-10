@@ -30,7 +30,7 @@ local syntax = require("guizhong/syntax")
 -- elements.
 local nvimTree = require("guizhong/nvimtree")
 
--- Importing the function
+-- Importing the functions
 -- for setting the highlight
 -- groups for "BufferLines"
 -- elements.
