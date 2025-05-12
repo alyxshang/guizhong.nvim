@@ -24,7 +24,7 @@ local syntax = require("guizhong/syntax")
 -- highlight groups using the 
 -- supplied color palette.
 function setHighlights(palette)
-
+  vim.opt.termguicolors = true
   if pcall(require, "noice") then
     
     -- Importing the function
