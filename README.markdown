@@ -60,6 +60,7 @@ Any of these plugins can be specified as optional dependencies for ***Guizhong.n
 - [sakuramaiden.nvim](https://github.com/alyxshang/sakuramaiden.nvim): A Neovim colorscheme inspired by Yae Miko, the Guuji of the Grand Narukami Shrine.
 - [jadewisdom.nvim](https://github.com/alyxshang/jadewisdom.nvim): A Neovim colorscheme inspired by Ningguang, the Tianquan of the Liyue Qixing.
 - [emeraldsparrow.nvim](https://github.com/alyxshang/emeraldsparrow.nvim): A Neovim colorscheme inspired by Ms. Lan Yan, a prolific maker of Rattan figures.
+- [menhera.nvim](https://github.com/alyxshang/menhera.nvim): A pastel goth Neovim colorscheme inspired by Menhera Chan.
 
 ## CHANGELOG :black_nib:
 
