@@ -111,6 +111,11 @@ A pastel goth Neovim colorscheme inspired by Menhera Chan.
 - Support for a transparency setting.
 - Support for conditionally setting highlight groups based on plugins installed.
 
+### Version 0.3.0
+
+- Added support for the [`gitsigns.nvim`](https://github.com/lewis6991/gitsigns.nvim) plugin.
+- Fixed a minor bug with icons for the [`bufferline.nvim`](https://github.com/akinsho/bufferline.nvim) plugin.
+
 ## NOTE :scroll:
 
 - *Guizhong.nvim :nail_care: :woman_technologist:* by *Alyx Shang :black_heart:*.
