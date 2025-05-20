@@ -68,6 +68,17 @@ function setHighlights(palette)
 
   end
 
+  if pcall(require, "gitsigns") then
+
+    -- Importing the functions
+    -- for setting the highlight
+    -- groups for "Gitsigns"
+    -- elements.
+    local gitsigns = require("guizhong/git")
+    gitsigns.setGitSignsGroups(palette)
+
+  end
+
   if pcall(require, "bufferline") then
     
     -- Importing the functions

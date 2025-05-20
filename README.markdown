@@ -53,14 +53,51 @@ Any of these plugins can be specified as optional dependencies for ***Guizhong.n
 - [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
+- [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
 
 ## MADE WITH ***GUIZHONG.NVIM*** :hammer_and_pick:
 
-- [eternity.nvim](https://github.com/alyxshang/eternity.nvim): A Neovim colorscheme inspired by the Raiden Shogun, the Archon of Inazuma.
-- [sakuramaiden.nvim](https://github.com/alyxshang/sakuramaiden.nvim): A Neovim colorscheme inspired by Yae Miko, the Guuji of the Grand Narukami Shrine.
-- [jadewisdom.nvim](https://github.com/alyxshang/jadewisdom.nvim): A Neovim colorscheme inspired by Ningguang, the Tianquan of the Liyue Qixing.
-- [emeraldsparrow.nvim](https://github.com/alyxshang/emeraldsparrow.nvim): A Neovim colorscheme inspired by Ms. Lan Yan, a prolific maker of Rattan figures.
-- [menhera.nvim](https://github.com/alyxshang/menhera.nvim): A pastel goth Neovim colorscheme inspired by Menhera Chan.
+### [ETERNITY.NVIM](https://github.com/alyxshang/eternity.nvim)
+
+A Neovim colorscheme inspired by the Raiden Shogun, the Archon of Inazuma.
+
+<p align="center">
+ <img src="https://github.com/alyxshang/eternity.nvim/blob/main/images/screenie.png"/>
+</p>
+
+
+### [SAKURAMAIDEN.NVIM](https://github.com/alyxshang/sakuramaiden.nvim)
+
+A Neovim colorscheme inspired by Yae Miko, the Guuji of the Grand Narukami Shrine.
+
+<p align="center">
+ <img src="https://github.com/alyxshang/sakuramaiden.nvim/blob/main/images/screenie.png"/>
+</p>
+
+### [JADEWISDOM.NVIM](https://github.com/alyxshang/jadewisdom.nvim)
+
+A Neovim colorscheme inspired by Ningguang, the Tianquan of the Liyue Qixing.
+
+<p align="center">
+ <img src="https://github.com/alyxshang/jadewisdom.nvim/blob/main/images/screenie.png"/>
+</p>
+
+### [EMERALDSPARROW.NVIM](https://github.com/alyxshang/emeraldsparrow.nvim)
+
+A Neovim colorscheme inspired by Ms. Lan Yan, a prolific maker of Rattan figures.
+
+<p align="center">
+ <img src="https://github.com/alyxshang/emeraldsparrow.nvim/blob/main/images/screenie.png"/>
+</p>
+
+
+### [MENHERA.NVIM](https://github.com/alyxshang/menhera.nvim)
+
+A pastel goth Neovim colorscheme inspired by Menhera Chan.
+
+<p align="center">
+ <img src="https://github.com/alyxshang/menhera.nvim/blob/main/images/screenie.png"/>
+</p>
 
 ## CHANGELOG :black_nib:
 
