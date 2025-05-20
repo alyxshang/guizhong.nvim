@@ -84,7 +84,7 @@ function setBuiltinGUIGroups(palette)
     vim.api.nvim_set_hl(
       0, 
       'SignColumn', 
-      { fg = palette.commentColor, bg = palette.bg2 })
+      { fg = palette.commentColor, bg = palette.bg })
     vim.api.nvim_set_hl(
       0, 
       'FoldColumn',
