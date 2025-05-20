@@ -9,6 +9,10 @@
 function setBufferLinesGroups(palette)
   vim.api.nvim_set_hl(
     0, 
+    'BufferLineDevIconlua', 
+    { bg = palette.bg })
+  vim.api.nvim_set_hl(
+    0, 
     'BufferLineFill', 
     { bg = palette.bg })
   vim.api.nvim_set_hl(
@@ -75,6 +79,10 @@ end
 -- elements without a background
 -- color.
 function setBufferLinesGroupsTransparent(palette)
+  vim.api.nvim_set_hl(
+    0, 
+    'BufferLineDevIconlua', 
+    { bg = 'NONE' })
   vim.api.nvim_set_hl(
     0, 
     'BufferLineFill', 
