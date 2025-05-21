@@ -10,6 +10,10 @@ function setBuiltinGUIGroups(palette)
   -- support transparency.
   if palette.transparent then
     vim.api.nvim_set_hl(
+      0,
+      'EndOfBuffer',
+      { fg = 'NONE' }) 
+    vim.api.nvim_set_hl(
       0, 
       'Normal', 
       { fg = palette.fg, bg = 'NONE' })
