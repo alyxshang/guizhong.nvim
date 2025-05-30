@@ -74,14 +74,6 @@ A Neovim colorscheme inspired by Yae Miko, the Guuji of the Grand Narukami Shrin
  <img src="https://github.com/alyxshang/sakuramaiden.nvim/blob/main/images/screenie.png"/>
 </p>
 
-### [JADEWISDOM.NVIM](https://github.com/alyxshang/jadewisdom.nvim)
-
-A Neovim colorscheme inspired by Ningguang, the Tianquan of the Liyue Qixing.
-
-<p align="center">
- <img src="https://github.com/alyxshang/jadewisdom.nvim/blob/main/images/screenie.png"/>
-</p>
-
 ### [EMERALDSPARROW.NVIM](https://github.com/alyxshang/emeraldsparrow.nvim)
 
 A Neovim colorscheme inspired by Ms. Lan Yan, a prolific maker of Rattan figures.
