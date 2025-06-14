@@ -106,7 +106,6 @@ A pastel goth Neovim colorscheme inspired by Menhera Chan.
 ### Version 0.3.0
 
 - Added support for the [`gitsigns.nvim`](https://github.com/lewis6991/gitsigns.nvim) plugin.
-- Fixed a minor bug with icons for the [`bufferline.nvim`](https://github.com/akinsho/bufferline.nvim) plugin.
 
 ## NOTE :scroll:
 
