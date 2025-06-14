@@ -9,7 +9,7 @@
 function setBufferLinesGroups(palette)
   vim.api.nvim_set_hl(
     0, 
-    'BufferlineFileIcon', 
+    'BufferLineFileIcon', 
     { bg = palette.bg })
   vim.api.nvim_set_hl(
     0, 
@@ -81,7 +81,7 @@ end
 function setBufferLinesGroupsTransparent(palette)
   vim.api.nvim_set_hl(
     0, 
-    'BufferlineFileIcon', 
+    'BufferLineFileIcon', 
     { bg = 'NONE' })
   vim.api.nvim_set_hl(
     0, 
