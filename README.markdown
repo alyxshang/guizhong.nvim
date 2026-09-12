@@ -67,4 +67,4 @@ Any of these plugins can be specified as optional dependencies for ***Guizhong.n
 ## NOTE :scroll:
 
 - *Guizhong.nvim* by *Alyx Shang*.
-- Licensed under the [FSL v1](https://alyxshang.boo/fair-software-license).
+- Licensed under the [FSL v1](https://alyxshang.boo/content/fair-software-license).
